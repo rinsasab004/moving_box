@@ -1,0 +1,213 @@
+/* body{
+    padding:0px;
+    margin:0px;
+}
+
+#main{
+    width: 100%;
+    height: 600px;
+    background-image: url("image1.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment:fixed ;
+}
+
+#box{
+    width:100%;
+    height: 700px;
+    background-color: aquamarine;
+
+}
+
+#para1{
+    left: 200px;
+    /* position: static; */
+    /* position: sticky;
+    position: fixed;
+}
+
+div{
+    width: 400px;
+    height: 800px;
+    background-color: aliceblue;
+}
+
+
+#box1{
+    width: 400px;
+    height: 300px;
+    background-color: bisque;
+    position: relative;
+    
+}
+
+#box2{
+    width: 200px;
+    height: 150px;
+    background-color: blueviolet;
+    position: relative;
+    bottom: 0px;
+    left:50px;
+}
+
+ */ 
+
+
+
+
+
+ /* ........................ */
+ /* div{
+    width: 100px;
+    height: 100px;
+
+ }
+
+ #box1{
+    background-color: red;
+    display: none;
+    visibility: hidden;
+ }
+
+ #box2{
+    background-color: green;
+ }
+
+ #box3{
+    background-color: blue;
+ } */
+
+
+
+
+ /* ................. */
+
+ /* #main{
+    width: 100%;
+    height: 400px;
+    background-color: bisque;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    justify-content: space-evenly;
+    justify-content: flex-end;
+    align-items: center;
+    flex-wrap: wrap;
+ }
+
+ .box{
+    width: 100px;
+    height: 100px;
+    background-color: aquamarine;
+    border: 1px solid black;
+ } */
+
+
+ /* ........................... */
+
+ /* .main{
+    width: 100%;
+    height: 700px;
+    background-color: bisque;
+    display: grid;
+    grid-template-columns:auto auto auto auto;
+    row-gap: 0px;
+ }
+
+ .box{
+    width: 200px;
+    height: 200px;
+    background-color: aquamarine;
+    border: 1px solid black;
+ } */
+
+
+/* ....................... */
+/* .main{
+    width: 100%;
+    height: 700px;
+    background-color: bisque;
+    display: grid;
+    grid-template-columns:auto auto auto auto auto;
+    row-gap: 0px;
+ }
+
+ .box{
+    width: 200px;
+    height: 200px;
+    background-color: aquamarine;
+    border: 1px solid black;
+ }
+
+ .container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+ } */
+
+
+
+
+ /* .................................... */
+
+ /* div{
+   width: 200px;
+   height: 200px;
+   background-color: aquamarine;
+   overflow: auto;
+   overflow: hidden;
+   overflow: visible;
+   overflow: scroll;
+ } */
+
+
+ /* ........................... */
+ /* img{
+   height: 100%;
+   width: 100%;
+   position: absolute;
+   top:0px;
+   left:0px;
+   z-index: -1;
+
+} */
+
+
+
+/* animation.................... */
+.main{
+   width:300px;
+   height: 300px;
+   background-color: blueviolet;
+   animation-name:box; 
+   animation-duration: 10s;
+}
+@keyframes box{
+   0%{background-color: blueviolet;position: relative;top: 0px;left: 0px;}
+   25%{background-color: rgb(43, 226, 147);position: relative;top: 0px;left: 100px;}
+   50%{background-color: rgb(226, 43, 183);position: relative;top: 100px;left: 100px;}
+   75%{background-color: rgb(43, 198, 226);position: relative;top: 100px;left: 0px;}
+   100%{background-color: rgb(162, 226, 43);position: relative;top: 0px;left: 0px;}
+}
+
+/* @keyframes box{
+   from{background-color: blueviolet;}
+   to{background-color: green;}
+} */
+
+
+/* media query.................................. */
+/* @media (max-width:500px){
+   body{
+      background-color: aqua;
+   }
+} */
+
+/* @media (max-width:500px){
+   div{
+      width: 50%;
+      background-color: aquamarine;
+   }
+} */
+
+
